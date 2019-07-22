@@ -17,7 +17,7 @@ hr {
 h1 {
     display: block;
     text-align: center;
-    font-family: Kaushan;
+    font-family: Kaushan+Scipt,cursive;
   src: url(https://fonts.google.com/specimen/Kaushan+Script/);
     font-size: 5rem;
     color:aqua;
