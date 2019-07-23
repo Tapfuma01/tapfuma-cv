@@ -29,7 +29,6 @@ h1 {
     max-width: auto;
     padding: 5px;
     color: white;
-    margin-top: 50%;
     
     font-size: 4rem;
     color:aqua;
@@ -95,10 +94,7 @@ p {
         border-radius:100px
    
       }
-     
-       color:grey;
-       font-size: 14px;
-      }
+    
 
       .container {
         text-align: center;
