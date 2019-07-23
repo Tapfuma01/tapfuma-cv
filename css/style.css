@@ -2,16 +2,23 @@ body {
     
     background-image: url('images/bg_1.jpg'); 
     text-align: center; 
-    background-color:rgb(8, 8, 8);
+    background-color:rgb(64, 67, 70);
 }
-
+#header h1 {
+  position: relative;
+  margin: 0 auto 0;
+  
+}
     *{
     box-sizing: border-box;
     }
 
-hr {
-  margin-top: 0%;
-}
+    hr {
+      height: 1px;
+      color: blue;
+      background-color: rgb(64, 67, 70);
+      border: none;
+      }
     
 
 h1 {
@@ -22,7 +29,7 @@ h1 {
     max-width: auto;
     padding: 5px;
     color: white;
-    margin-top: 70%;
+    margin-top: 50%;
     
     font-size: 4rem;
     color:aqua;
@@ -35,14 +42,21 @@ h2 {
 
 }
 h3 {
-  color: rgb(138, 151, 158);
+  color: rgb(239, 247, 252);
+  font-size: 2rem;
+  font-style: italic;
 }
 
 
 p {
     color: aqua;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
+}
+.info {
+  color:aliceblue;
+
+
 }
 
 
@@ -77,21 +91,17 @@ p {
         width: 25%;
         max-width: auto;
         padding: 15px;
-        margin-top:-5%;
+        margin-top:-10%;
         border-radius:100px
    
       }
      
-      .mb-4 {
        color:grey;
        font-size: 14px;
       }
 
-      .container{
-        margin-top: 10%;
+      .container {
         text-align: center;
-
-
 
       }
       .date,
@@ -99,6 +109,8 @@ p {
       color: aqua;
       line-break: auto;
       }
+
+
     .self {
       text-align: center;
     }
@@ -132,8 +144,17 @@ p {
       text-align: right;
       padding-top: 20px;
       padding-bottom: 20px;
-      color: white;
+      color: white;}
+  
+      * {box-sizing: border-box}
+    
+    .container1 {
+      width: 100%;
+      background-color: grey;
     }
     
-    .html {width: 90%; background-color:  #2196F3;}
-    .css {width: 80%; background-color: #2196F3;}
+    .html {width: 90%; background-color:  aqua; border: whitesmoke;}
+      
+    
+
+   .css {width: 80%; background-color: aqua; border: whitesmoke;}
