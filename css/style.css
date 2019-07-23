@@ -57,7 +57,13 @@ p {
 
 
 }
+.about {
+  color: rgb(239, 247, 252);
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center
 
+}
 
     .navbar-brand {
     color: #000;
