@@ -17,8 +17,13 @@ hr {
 h1 {
     display: block;
     text-align: center;
-    font-family: Kaushan+Scipt,cursive;
-    src: url(https://fonts.google.com/specimen/Kaushan+Script/);
+    font-family:cursive;
+    display: block;
+    max-width: auto;
+    padding: 5px;
+    color: white;
+    margin-top: 70%;
+    
     font-size: 4rem;
     color:aqua;
 }
@@ -32,12 +37,7 @@ h2 {
 h3 {
   color: rgb(138, 151, 158);
 }
-.res {
-  display: block;
-  color:white;
-  text-align: center;
-  font-size: 4rem; 
-}
+
 
 p {
     color: aqua;
@@ -81,26 +81,6 @@ p {
         border-radius:100px
    
       }
-
-     .about {
-       display: block;
-      max-width: auto;
-      float: center;
-      padding: 5px;
-      color: white;
-      margin-top: 70%;
-     }
-
-    .info {
-      color:aqua;
-      display: inline;
-      text-align: left;
-      justify-content: flex-start;
-      font-size: 20px;
-      margin-top: 70%;
-      margin-right:50%;
-
-     }
      
       .mb-4 {
        color:grey;
@@ -142,21 +122,18 @@ p {
 
       }
 
-    
-  
   
     .black {
       color: #000;
       font-size: 6rem;
     }
+    
     .skills {
-      display: block;
-      color:white;
-      text-align: center;
-      font-size: 4rem;
-      margin-top: 60%;
-
-
-
+      text-align: right;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: white;
     }
-
+    
+    .html {width: 90%; background-color:  #2196F3;}
+    .css {width: 80%; background-color: #2196F3;}
