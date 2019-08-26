@@ -1,14 +1,40 @@
-body {
-    
-    background-image: url('images/bg_1.jpg'); 
-    text-align: center; 
-    background-color:rgb(64, 67, 70);
-    font-family: 'Chelsea Market';font-size: 22px;
-    font-style: normal;
+.view {
+  background: url(https://images.pexels.com/photos/51401/pexels-photo-51401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)no-repeat center center;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0.5);
+  
+}
+
+.top-nav-collapse {
+  background-color: rgb(30, 31, 34);
+  padding: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+      background-color: rgb(24, 25, 27);
+  }
+}
+
+html,
+body,
+header,
+.view {
+height: 100%;
+}
+
+html,
+header,
+.view {
+  height: 100%;
+
 }
 #header h1 {
-  position: relative;
-  margin: 0 auto 0;
+ 
+
   
 }
     *{
@@ -24,64 +50,32 @@ body {
     
 
 h1 {
-    display: block;
-    text-align: center;
-    font-family: 'Carrois Gothic';font-size: 22px;
-    display: block;
-    max-width: auto;
-    padding: 5px;
-    color: white;
     
-    font-size: 4rem;
-    color:aqua;
+    
 }
 h2 {
-  display: block;
-  color:white;
-  text-align: center;
-  font-size: 4rem;
-  font-family: 'Chelsea Market';font-size: 22px;
-
+  
 }
-h3 {
-  color: rgb(239, 247, 252);
-  font-size: 1.5rem;;
-  text-align: center;
-  font-family: 'Carrois Gothic';font-size: 22px;
+h3 { 
 }
 
   h4 {
   
-    text-align: center;
-    font-family:'Carrois Gothic';font-size: 22px;
-    max-width: auto;
-    padding: 5px;
-    color: aqua;
-    font-size: 4rem;
   
   
 
 }
 .move {
-  margin-top: 10%;
+
 
 }
 p {
-    color: aqua;
-    text-align: center;
-    font-size: 2rem;
-}
-.info {
-  color:aliceblue;
-  margin-top: 10%;
+   
+
 }
 
 
 .about {
-  color: rgb(239, 247, 252);
-  font-size: 1.5rem;
-  text-align: center;
-  margin-top: 10%;
 }
 
     .navbar-brand {
@@ -91,32 +85,26 @@ p {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
 }
+.navbar-nav {
+  justify-content: right;
+}
 * {
     box-sizing: border-box;
   }
 
 .header {
-        padding: 15px;
-        color: aqua;
+        
       }
       
      
     
       .main {
-        width: 100%;
-        float: left;
-        padding: 15px;
-        border: 5px aqua;
-        margin-top: 10%;
+       
         
         
       }
       img {
-        width: 25%;
-        max-width: auto;
-        padding: 15px;
-        margin-top:-10%;
-        border-radius:100px
+       
    
       }
     
@@ -127,13 +115,12 @@ p {
       }
       .date,
       .position {
-      color: aqua;
-      line-break: auto;
+     
       }
 
 
     .self {
-      text-align: center;
+     
     }
 
     .column {
@@ -157,24 +144,17 @@ p {
 
   
     .black {
-      color: #000;
-      font-size: 6rem;
+      
     }
     
     .skills {
-      text-align: right;
-      padding-top: 8px;
-      padding-bottom: 8px;
-      color: white;
-      float: center;
+      
     }
   
       * {box-sizing: border-box}
     
     .container1 {
-      width: 75%;
-      background-color: grey;
-      
+     
     }
     
     .html {width: 90%; background-color:  aqua; border: whitesmoke;}
@@ -189,19 +169,25 @@ p {
 
 
   .contact {
-    margin-top: 10%;
-    text-align: center;
-    float: center;
+   
   }
 
 
   .contact-text {
-    color: aqua;
-    font-size: 1rem;
+    
   }
   
   .resume {
-    margin-top: 20%;
+   
+  }
 
   
-  }
+.nav-item{
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.50rem;
+  justify-content: right;
+
+}
+
