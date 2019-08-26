@@ -1,5 +1,5 @@
 .view {
-  background: url(https://images.pexels.com/photos/2609107/pexels-photo-2609107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)no-repeat center center;
+  background: url(https://image.freepik.com/free-photo/beautiful-palms-black-with-copyspace_24972-470.jpg)no-repeat center center;
   background-size: cover;
 }
 .view
@@ -55,7 +55,12 @@ header,
       background-color: rgb(64, 67, 70);
       border: none;
       }
-    
+  .image{
+    width: 400px;
+    height:300px;
+    margin-top:10%;
+    margin-bottom:10%;
+  }
 
 
 
@@ -65,35 +70,6 @@ header,
         width: 100%;
         }
 
-     
-
-    .column {
-        float: left;
-        width: 100%;
-        padding: 20px;
-        height: fit-content; 
-     
-      }
-      
-      .row{
-        content: "";
-        display: table;
-        clear: both;
-      }
-
-      .sk1 {
-        color:whitesmoke;
-
-      }
-
-  
-    .black {
-      
-    }
-    
-    .skills {
-      
-    }
   
       * {box-sizing: border-box}
     
