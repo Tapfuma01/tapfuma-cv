@@ -44,8 +44,15 @@ header,
   
 
 }
-  
-}
+  h1{
+    font-family: inherit;
+    font-size: 4rem;
+  }
+  .welcome{
+    font-family: 'Fjalla One';
+    font-size: 5rem;
+
+  }
     *{
     box-sizing: border-box;ß
     }
