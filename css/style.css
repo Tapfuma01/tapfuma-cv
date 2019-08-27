@@ -29,21 +29,20 @@ font-family: 'Fjalla One';
 
 }
 
-html,
-header,
-.view {
-  height: 100%;
 
 }
-.container{
+.container1{
 
+font-family: 'Fjalla One';
 }
- 
+
+.button{
+  justify-content: center;
+}
 .top-right {
   position:absolute;
   top: 160%;
   right: 7%;
-  
 
 }
   h1{
