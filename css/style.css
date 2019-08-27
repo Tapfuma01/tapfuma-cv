@@ -34,13 +34,20 @@ font-family: 'Fjalla One';
 .container1{
 font-family: 'Fjalla One';
 }
-.container2{
+.containe2{
   font-family: 'Fjalla One';
-  background-color: gray;
+ background-image: url(https://img.freepik.com/free-photo/mountain-landscape-morning-mist_78335-612.jpg?size=626&ext=jpg);
   width: 100%;
+  background-color:inherit;
+  height: auto;
+  align-content: center;
+  margin: 0%;
+  position: relative;;
+  padding: 0%;
   }
 .resume-wrap{
-  background-color: #faefef;
+ color:black;
+
 }
 .button{
   justify-content: center;
@@ -123,7 +130,6 @@ font-family: 'Fjalla One';
   }
   
   .about-me {
-    margin-top: 20%;
     width: 100%;
     text-align: center;
    
@@ -140,52 +146,4 @@ font-family: 'Fjalla One';
 .navbar-brand{
   margin-left: 28%;
   
-}
-
-//FTCO ABOUT
-.ftco-about{
-	.img-about{
-		width: 100%;
-		z-index: 0;
-		position: relative;
-		.img{
-			display: block;
-			width: 100%;
-			position: relative;
-			z-index: 1;
-		}
-	}
-	ul.about-info{
-		display: inline-block;
-		padding: 0;
-		margin: 0;
-		width: 100%;
-		li{
-			list-style: none;
-			margin-bottom: 10px;
-			span{
-				width: calc(100% - 130px);
-				&:first-child{
-					font-weight: 600;
-					color: $white;
-					width: 130px;
-				}
-			}
-		}
-	}
-	.counter-wrap{
-		.text{
-			p{
-				font-size: 20px;
-				span{
-					font-weight: 400;
-					color: $white;
-				}
-				span.number{
-					font-weight: 600;
-					color: $primary;
-				}
-			}
-		}
-	}
 }
