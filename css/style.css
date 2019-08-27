@@ -32,10 +32,16 @@ font-family: 'Fjalla One';
 
 }
 .container1{
-
 font-family: 'Fjalla One';
 }
-
+.container2{
+  font-family: 'Fjalla One';
+  background-color: gray;
+  width: 100%;
+  }
+.resume-wrap{
+  background-color: #faefef;
+}
 .button{
   justify-content: center;
 }
