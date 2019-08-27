@@ -25,6 +25,8 @@ body,
 header,
 .view {
 height: 100%;
+font-family: 'Fjalla One';
+
 }
 
 html,
@@ -119,7 +121,7 @@ header,
   justify-content: right;
 }
 .navbar-brand{
-  margin-left: 20%;
+  margin-left: 28%;
   
 }
 
