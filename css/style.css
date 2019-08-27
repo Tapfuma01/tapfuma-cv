@@ -59,9 +59,19 @@ header,
   font-size: 1.5rem;
 
 }
+.mystrength1{
+  font-family: 'Fjalla One';
+  font-size: 1.2rem;
+
+}
+.names{
+  font-family: inherit;
+  text-align: right;
+  margin-left: 10%;
+}
     *{
     box-sizing: border-box;
-    }
+    }ß
 
     hr {
       height:1px;
@@ -70,7 +80,7 @@ header,
       border: none;
       }
     .big{
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-family: 'Fjalla One';
      
     }
