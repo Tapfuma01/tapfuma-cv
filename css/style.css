@@ -38,7 +38,6 @@ font-family: 'Fjalla One';
   font-family: 'Fjalla One';
  background-image: url(https://img.freepik.com/free-photo/mountain-landscape-morning-mist_78335-612.jpg?size=626&ext=jpg);
   width: 100%;
-  background-color:inherit;
   height: auto;
   align-content: center;
   margin: 0%;
@@ -46,8 +45,21 @@ font-family: 'Fjalla One';
   padding: 0%;
   }
 .resume-wrap{
- color:black;
-
+  color: rgb(37, 37, 37);
+}
+.resume{
+  font-family: 'Fjalla One';
+  align-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  color: #ffffff;
+}
+.skills{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: block;
+  text-align: center
 }
 .button{
   justify-content: center;
@@ -80,7 +92,7 @@ font-family: 'Fjalla One';
   font-family: inherit;
   text-align: right;
   margin-left: 10%;
-}
+ 
     *{
     box-sizing: border-box;
     }ß
@@ -109,11 +121,11 @@ font-family: 'Fjalla One';
   
       * {box-sizing: border-box}
     
-    .html {width: 90%; background-color:  aqua; border: whitesmoke;}
+    .html {width: 90%; background-color: #7be76c; border: whitesmoke;}
       
     
 
-   .css {width: 80%; background-color: aqua; border: whitesmoke;}
+   .css {width: 80%; background-color:#7be76c; border: whitesmoke;}
    
    .colors{
      color: aliceblue;
