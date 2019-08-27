@@ -51,8 +51,12 @@ header,
   .welcome{
     font-family: 'Fjalla One';
     font-size: 5rem;
-
   }
+.mystrength{
+  font-family: 'Fjalla One';
+  font-size: 1.5rem;
+
+}
     *{
     box-sizing: border-box;ß
     }
