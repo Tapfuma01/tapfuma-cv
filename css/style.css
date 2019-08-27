@@ -60,12 +60,12 @@ header,
 
 }
     *{
-    box-sizing: border-box;ß
+    box-sizing: border-box;
     }
 
     hr {
-      height: 1px;
-      color: blue;
+      height:1px;
+      color: white;
       background-color: rgb(64, 67, 70);
       border: none;
       }
