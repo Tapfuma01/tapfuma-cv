@@ -69,10 +69,12 @@ header,
       background-color: rgb(64, 67, 70);
       border: none;
       }
-    .about{
+    .big{
+      font-size: 3rem;
+      font-family: 'Fjalla One';
      
     }
-
+     
 
 
 
