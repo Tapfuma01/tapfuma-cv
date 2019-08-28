@@ -131,11 +131,11 @@ font-family: 'Fjalla One';
   
       * {box-sizing: border-box}
     
-    .html {width: 90%; background-color: #7be76c; border: whitesmoke;}
+    .html {width: 90%; background-color: #7be76c; border:rgba(0,0,0,0.5) ;}
       
     
 
-   .css {width: 80%; background-color:#7be76c; border: whitesmoke;}
+   .css {width: 80%; background-color:#7be76c; border:rgba(0,0,0,0.5) ;}
    
    .colors{
      color: black;
