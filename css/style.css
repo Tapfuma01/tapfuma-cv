@@ -28,6 +28,15 @@ height: 100%;
 font-family: 'Fjalla One';
 
 }
+h1{
+  font-family: 'Fjalla One';
+}
+h3{
+  font-family: 'Fjalla One';
+}
+p{
+  font-family: 'Fjalla One';
+}
 
 
 }
@@ -92,7 +101,8 @@ font-family: 'Fjalla One';
   font-family: inherit;
   text-align: right;
   margin-left: 10%;
- 
+  
+}
     *{
     box-sizing: border-box;
     }ß
@@ -128,7 +138,8 @@ font-family: 'Fjalla One';
    .css {width: 80%; background-color:#7be76c; border: whitesmoke;}
    
    .colors{
-     color: aliceblue;
+     color: black;
+     font-family: 'Fjalla One';
    }
 
 
