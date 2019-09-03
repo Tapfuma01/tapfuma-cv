@@ -1,5 +1,5 @@
 .view {
-  background: url(https://image.freepik.com/free-photo/beautiful-palms-black-with-copyspace_24972-470.jpg)no-repeat center center;
+  background: url(https://images.pexels.com/photos/1563332/pexels-photo-1563332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)no-repeat center center;
   background-size: cover;
 }
 .view
@@ -45,7 +45,7 @@ font-family: 'Fjalla One';
 }
 .containe2{
   font-family: 'Fjalla One';
- background-image: url(https://img.freepik.com/free-photo/mountain-landscape-morning-mist_78335-612.jpg?size=626&ext=jpg);
+ background: url(https://img.freepik.com/free-photo/mountain-landscape-morning-mist_78335-612.jpg?size=626&ext=jpg);
   width: 100%;
   height: auto;
   align-content: center;
@@ -119,8 +119,9 @@ font-family: 'Fjalla One';
      
     }
     img{
-      border-radius: 100%;
+      
       text-align: center;
+      border-radius: 75%;
     }
 
 
@@ -133,10 +134,10 @@ font-family: 'Fjalla One';
       .container-aboutme{
         width: 100%;
         height: auto;
-        background: url(https://image.freepik.com/free-photo/beautiful-palms-black-with-copyspace_24972-470.jpg)no-repeat center center;
+        background: url(//images/bg_1.jpg)no-repeat center center;
         background-size: cover;
         margin-top: 10%;
-        color: #ffffff;
+        color: black;
       }
 
   
@@ -180,4 +181,7 @@ font-family: 'Fjalla One';
 .navbar-brand{
   margin-left: 28%;
   
+}
+.myimage {
+  width: 100%;
 }
