@@ -1,5 +1,5 @@
 .view {
-  background: url(https://images.pexels.com/photos/1563332/pexels-photo-1563332.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)no-repeat center center;
+  background: url(https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 )no-repeat center center;
   background-size: cover;
 }
 .view
@@ -45,7 +45,7 @@ font-family: 'Fjalla One';
 }
 .containe2{
   font-family: 'Fjalla One';
- background: url(https://img.freepik.com/free-photo/mountain-landscape-morning-mist_78335-612.jpg?size=626&ext=jpg);
+ background: url();
   width: 100%;
   height: auto;
   align-content: center;
@@ -122,6 +122,8 @@ font-family: 'Fjalla One';
       
       text-align: center;
       border-radius: 75%;
+      margin-left: 10%;
+      margin-top: 10%;
     }
 
 
@@ -134,10 +136,9 @@ font-family: 'Fjalla One';
       .container-aboutme{
         width: 100%;
         height: auto;
-        background: url(//images/bg_1.jpg)no-repeat center center;
-        background-size: cover;
         margin-top: 10%;
         color: black;
+        display: block;
       }
 
   
