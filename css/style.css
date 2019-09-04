@@ -94,13 +94,18 @@ font-family: 'Fjalla One';
 }
 .mystrength1{
   font-family: 'Fjalla One';
-  font-size: 1.2rem;
+  font-size: 1.75rem;
+  font-weight: bold;
 
 }
 .names{
   font-family: inherit;
   text-align: right;
   margin-left: 10%;
+  font-family: 'Fjalla One'; 
+  display: inline;
+  font-size: 1.75rem;
+  
   
 }
     *{
@@ -189,19 +194,10 @@ font-family: 'Fjalla One';
 .myimage {
   width: 100%;
 }
-div.row{}
-  
-}
+
 div.col-md-6{
-  background-color: black;
   width: 40%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-div.col-md-8{
-  background-color: black;
-  width: 45%;
-  margin-right: 5%;
-  margin-left: 5%;
+  padding: 5%;
+
 }
 
