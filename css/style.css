@@ -121,8 +121,8 @@ font-family: 'Fjalla One';
     img{
       
       text-align: center;
-      border-radius: 75%;
-      margin-top: 5%;
+      border-radius:50%;
+      
       
      
     }
@@ -140,6 +140,8 @@ font-family: 'Fjalla One';
         margin-top: 10%;
         color: black;
         display: block;
+        margin-left: 10%;
+        margin-right: 10%;
       }
 
   
@@ -187,3 +189,19 @@ font-family: 'Fjalla One';
 .myimage {
   width: 100%;
 }
+div.row{}
+  
+}
+div.col-md-6{
+  background-color: black;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+div.col-md-8{
+  background-color: black;
+  width: 45%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
