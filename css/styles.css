@@ -61,7 +61,7 @@ h4{
   padding: 50px 24px;
   text-align: center;
   background:rgba(110, 110, 110, 0.5);
-  color:grey;
+  color:white;
   cursor: pointer;
   margin: 29px;
 }
@@ -87,7 +87,7 @@ h4{
 .skill{
     padding:  30px;
     text-align: center;
-    background:rgba(124, 123, 123, 0.5);
+    background:rgba(170, 169, 169, 0.5);
     color: black;
     cursor: pointer;
     margin-right: 10%;

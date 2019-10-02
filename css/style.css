@@ -38,7 +38,7 @@ font-size: 1rem;
   font-weight: bold;
 }
 .mt-4{
-  color:grey;
+  color:white;
 }
 .resume{
   background:;
@@ -54,6 +54,7 @@ h4{
   padding: 55px 35px;
   text-align: center;
   background: black;
+  color:white;
   cursor: pointer;
   margin-bottom: 30px;
   -webkit-transition: all 0.4s ease 0s;
