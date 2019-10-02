@@ -1,203 +1,75 @@
-.view {
-  background: url(https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 )no-repeat center center;
-  background-size: cover;
-}
-.view
-
-.navbar {
-  background-color: rgba(0,0,0,0.2);
-  
-}
-
-.top-nav-collapse {
- background-color: rgba(0,0,0,0.2);
-  padding: 20px;
-}
-
-@media only screen and (max-width: 400px) {
-  .navbar {
-      background-color: rgb(24, 25, 27);
-  }
-}
-
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
 html,
 body,
-header,
 .view {
-height: 100%;
-font-family: 'Fjalla One';
+  height: 100%; }
 
-}
-h1{
-  font-family: 'Fjalla One';
-}
-h3{
-  font-family: 'Fjalla One';
-}
-p{
-  font-family: 'Fjalla One';
-}
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
 
 
+.date{
+  color:black;
+  font-weight: bolder;
 }
-.container1{
-font-family: 'Fjalla One';
+body{
+  background:;
 }
-.containe2{
-  font-family: 'Fjalla One';
- background: url();
-  width: 100%;
-  height: auto;
-  align-content: center;
-  margin: 0%;
-  position: relative;;
-  padding: 0%;
-  }
-.resume-wrap{
-  color: rgb(37, 37, 37);
+.about-info{
+font-size: 1rem;
+}
+.about{
+  font-size: 1rem;
+}
+.education{
+  background:white;
+  margin: 20px;
+  text-align: center;
+  
+}
+.position{
+  color:black;
+  font-weight: bold;
+}
+.mt-4{
+  color: black;
 }
 .resume{
-  font-family: 'Fjalla One';
-  align-content: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: justify;
-  
+  background:;
 }
-.skills{
-  margin-left: 10%;
-  margin-right: 10%;
-  display: block;
-  text-align: center
+/* .image{
+  background: url(https://images.pexels.com/photos/1496139/pexels-photo-1496139.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  */
 }
-.button{
-  justify-content: center;
-}
-.top-right {
-  position:absolute;
-  top: 160%;
-  right: 7%;
-
-}
-  h1{
-    font-family: inherit;
-    font-size: 4rem;
-  }
-  .welcome{
-    font-family: 'Fjalla One';
-    font-size: 5rem;
-  }
-.mystrength{
-  font-family: 'Fjalla One';
-  font-size: 1.5rem;
-
-}
-.mystrength1{
-  font-family: 'Fjalla One';
-  font-size: 1.75rem;
+h4{
   font-weight: bold;
-
 }
-.names{
-  font-family: inherit;
-  text-align: right;
-  margin-left: 10%;
-  font-family: 'Fjalla One'; 
-  display: inline;
-  font-size: 1.75rem;
-  
-  
+.feature_item {
+  padding: 55px 35px;
+  text-align: center;
+  background: black;
+  cursor: pointer;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  border-radius: 10%;
 }
-    *{
-    box-sizing: border-box;
-    }ß
-
-    hr {
-      height:1px;
-      color: white;
-      background-color: rgb(64, 67, 70);
-      border: none;
-      }
-    .big{
-      font-size: 2.5rem;
-      font-family: 'Fjalla One';
-     
-    }
-    img{
-      
-      text-align: center;
-      border-radius:50%;
-      
-      
-     
-    }
-
-
-
-      .container {
-        text-align: center; 
-        
-        width: 100%;
-        }
-      .container-aboutme{
-        width: 100%;
-        height: auto;
-        margin-top: 10%;
-        color: black;
-        display: block;
-        margin-left: 10%;
-        margin-right: 10%;
-      }
-
-  
-      * {box-sizing: border-box}
-    
-    .html {width: 90%; background-color: #7be76c; border:rgba(0,0,0,0.5) ;}
-      
-    
-
-   .css {width: 80%; background-color:#7be76c; border:rgba(0,0,0,0.5) ;}
-   
-   .colors{
-     color: black;
-     font-family: 'Fjalla One';
-   }
-
-
-  .contact {
-   
-  }
-
-
-  .contact-text {
-    
-  }
-  
-  .about-me {
-    width: 100%;
-    text-align: center;
-   
-  }
-
-  
-.nav-item{
-  color: #ffffff;
-  font-family: inherit;
-  font-weight: normal;
-  font-size: 1rem;
-  justify-content: right;
+.img, .blog-img, .user-img {
+  background-size: cover;
+  background-position: center center;
 }
-.navbar-brand{
-  margin-left: 28%;
-  
-}
-.myimage {
+.project {
   width: 100%;
+  height: 285px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 0;
 }
-
-div.col-md-6{
-  width: 40%;
-  padding: 5%;
-
-}
-

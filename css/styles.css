@@ -1,0 +1,151 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; 
+  background:url(https://images.pexels.com/photos/1258333/pexels-photo-1258333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)}
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+
+.date{
+  color:black;
+  font-weight: bolder;
+}
+body{
+  background:black;
+}
+.about-info{
+font-size: 1rem;
+}
+.about{
+  font-size: 1rem;
+  padding: 0px;
+  margin: 0px;
+}
+.education{
+  margin: 30px;
+  padding: 10px;
+  text-align: center;
+  background: rgba(95, 94, 94, 0.5);
+  color: grey;
+  
+
+}
+.position{
+  color:black;
+  font-weight: bold;
+}
+.mt-4{
+  color:black;
+}
+.resume-section{
+  margin-top: 10%;
+  background: url();
+}
+.skills{
+margin-top: 20%;
+ 
+}
+h4{
+  font-weight: bold;
+}
+.feature_item {
+  padding: 50px 24px;
+  text-align: center;
+  background:rgba(110, 110, 110, 0.5);
+  color:black;
+  cursor: pointer;
+  margin: 29px;
+}
+.img, .blog-img, .user-img {
+  background-size: cover;
+  background-position: center center;
+} 
+.project {
+  width: 100%;
+  height: 285px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 0;
+}
+.overlay{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    
+}
+.skill{
+    padding:  30px;
+    text-align: center;
+    background:rgba(124, 124, 124, 0.5);
+    color: black;
+    cursor: pointer;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom:10%;
+    margin-top: 10%;
+
+  }
+
+  .H3{
+    font-size: 4rem;
+  
+  }
+  .banner_content{
+    margin-top: 20%;
+  }
+  .col-lg-5{
+    background: rgba(0,0,0,0.3);
+  }
+  .col-lg-7{
+    background: rgba(0,0,0,0.3);
+  }
+  #intro{
+    margin-top: 10%;
+  }
+  h1{
+  
+    color:lightgray;
+    width: 100%;
+    margin:;
+  }
+  h2{
+    background:rgba(0,0,0,0.5) ;
+    color: white;
+    margin-top: 10px
+  }
+  .ABOUT{
+  
+  }
+  .services{
+    
+  }
+  .main {
+    background:url(https://images.pexels.com/photos/3706/black-and-white-cartoon-donald-duck-spotlight.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)no-repeat center;
+    
+  
+  }
+  h5{
+    font-size:2rem;
+    margin-left: 10px;
+  }
+  nav.navbar{
+   background:transparent;
+   background-position: center;
+  
+  }
+  .aboutme {
+    background: rgba(124, 124, 124, 0.5);
+    border-style: solid;
+    border-color: black;
+  }
