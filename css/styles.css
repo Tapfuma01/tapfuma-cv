@@ -158,3 +158,6 @@ h4{
   .email{
     font-size: initial;
   }
+  div.footer-copyright{
+    margin-top: 40%;
+  }
