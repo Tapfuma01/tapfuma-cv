@@ -40,6 +40,7 @@ font-size: 1rem;
   text-align: center;
   background: rgba(95, 94, 94, 0.5);
   color: grey;
+  cursor:progress;
   
 
 }
