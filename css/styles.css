@@ -3,7 +3,9 @@ html,
 body,
 .view {
   height: 100%; 
-  background:url(https://images.pexels.com/photos/1258333/pexels-photo-1258333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);}
+  background:url(https://images.pexels.com/photos/1258333/pexels-photo-1258333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  font-family: 'Montserrat', sans-serif;
+}
   
 
 /* Full Page Carousel itself*/
