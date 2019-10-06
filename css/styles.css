@@ -172,3 +172,7 @@ h4{
    font-size: 1.3rem;
    padding: 6px;
  }
+ .acquired{
+   font-size: 0.8rem;
+   color:grey;
+ }
