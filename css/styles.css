@@ -80,7 +80,7 @@ h4{
   margin-bottom: 30px;
   position: relative;
   z-index: 0;
-  cursor:progress;
+  cursor:crosshair;
 }
 .overlay{
     top: 0;
