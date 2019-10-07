@@ -38,7 +38,7 @@ font-size: 1rem;
   margin: 30px;
   padding: 10px;
   text-align: center;
-  background: rgba(95, 94, 94, 0.5);
+  background: rgba(128, 126, 126, 0.5);
   color: grey;
   
   
@@ -66,7 +66,7 @@ h4{
 .feature_item {
   padding: 50px 24px;
   text-align: center;
-  background:rgba(110, 110, 110, 0.5);
+  background:rgba(128, 126, 126, 0.5);
   color:white;
   cursor: pointer;
   margin: 29px;
@@ -95,7 +95,7 @@ h4{
 .skill{
     padding:  30px;
     text-align: center;
-    background:rgba(78, 78, 78, 0.5);
+    background:rgba(95, 94, 94, 0.5);
     color: black;
     cursor: pointer;
     margin-right: 10%;
