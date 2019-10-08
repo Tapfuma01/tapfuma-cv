@@ -62,6 +62,7 @@ margin-top: 20%;
 h4{
   font-weight: bold;
   color: black;
+  font-size: 18px;
 }
 .feature_item {
   padding: 50px 24px;
@@ -140,14 +141,7 @@ h4{
      
   
   }
-  .services{
-    
-  }
-
-   
-    
   
-  }
   h5{
     font-size:2rem;
     margin-left: 10px;
@@ -162,9 +156,7 @@ h4{
     background: rgba(124, 124, 124, 0.637);
     border-style: solid;
     border-color: black;
-    
-  
-    
+    font-family: 'Montserrat', sans-serif; 
   }
   .email{
     font-size:0.85rem;
