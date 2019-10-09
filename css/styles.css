@@ -3,11 +3,14 @@ html,
 body,
 .view {
   height: 100%; 
-  background:url(https://images.pexels.com/photos/1258333/pexels-photo-1258333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  /* background:url(https://images.pexels.com/photos/1258333/pexels-photo-1258333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
   /* font-family: 'Montserrat', sans-serif; */
   /* background:url(https://images.pexels.com/photos/3706/black-and-white-cartoon-donald-duck-spotlight.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
   margin:0px;
   padding: 0px;
+  background: url(https://cdn.pixabay.com/photo/2014/05/24/00/07/woven-cloth-352481_960_720.jpg);
+  background-size: cover;
+  
 }
   
 
@@ -42,7 +45,7 @@ font-size: 1rem;
   text-align: center;
   /* background: currentColor; */
   color: grey;
-  background: url(https://images.pexels.com/photos/8892/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500)no-repeat;
+  background:rgba(219, 218, 218, 0.5);
 }
 .position{
   color:black;
@@ -84,7 +87,7 @@ h4{
   margin-bottom: 30px;
   position: relative;
   z-index: 0;
-  cursor:crosshair;
+ 
 }
 .overlay{
     top: 0;
@@ -97,7 +100,7 @@ h4{
 .skill{
     padding:  30px;
     text-align: center;
-    background:rgba(133, 131, 131, 0.5);
+    background:rgba(219, 218, 218, 0.5);
     color: black;
     cursor: pointer;
     margin-right: 10%;
@@ -115,12 +118,7 @@ h4{
   .banner_content{
     margin-top: 20%;
   }
-  .col-lg-5{
-    background: rgba(0,0,0,0.3);
-  }
-  .col-lg-7{
-    background: rgba(0,0,0,0.3);
-  }
+  
   #about-section{
     margin-top: 7%;
   }
@@ -153,7 +151,7 @@ h4{
   
   }
   .aboutme {
-    background: rgba(124, 124, 124, 0.637);
+    background:rgba(219, 218, 218, 0.5);
     border-style: solid;
     border-color: black;
     font-family: 'Montserrat', sans-serif; 
